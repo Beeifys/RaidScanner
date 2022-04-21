@@ -25,7 +25,7 @@ def _worker():
       if 'APP_KEY' in _scan:
         print('[ENV] Looking vuln > ' + _fix_url(mylist[_currentTh]) + _path)
         open('env.txt', 'a+').write(_fix_url(mylist[_currentTh]) + _path +'\n')
-      elif ('System' in _scan && 'PHP Version' in _scan or 'PHP'):
+      elif ('System' in _scan and 'PHP Version' in _scan or 'PHP'):
         print('[APACHE] Looking vuln > ' + _fix_url(mylist[_currentTh]) + _path)
         open('apache.txt', 'a+').write(_fix_url(mylist[_currentTh]) + _path + '\n')
       else:
