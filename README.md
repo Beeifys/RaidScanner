@@ -1,5 +1,5 @@
 # RaidScanner
-Raid Laravel and Shell Scanner
+Raid Laravel and Apache scanner full paths
 
 # PROS
 - Modified bots threading system, etc
